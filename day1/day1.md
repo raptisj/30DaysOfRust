@@ -25,14 +25,14 @@ export PATH="$HOME/.cargo/bin:$PATH"
 If you run rustc --version in your terminal you should get your Rust version.
 
 ```
-    $ rustc --version
-    rustc 1.45.2 (d3fb005a3 2020-07-31)
+$ rustc --version
+rustc 1.45.2 (d3fb005a3 2020-07-31)
 ```
 
 You also need you have build-essential installed. If you are in a Linux system like me you install it by running:
 
 ```
-    sudo apt-get install build-essential -y
+sudo apt-get install build-essential -y
 ```
 
 Link to video: [Install Rust in Linux](https://www.youtube.com/watch?v=PHBdlGgCrWw)
@@ -46,29 +46,29 @@ Cargo is the official package manager of Rust. You can think this like what is C
 To create a new Rust project you run in your terminal
 
 ```
-    $ cargo new testProject --bin
+$ cargo new testProject --bin
 ```
 
 If you ls in your project you will see a src folder which contains a main.rs file, and a Cargo.toml file. In your Cargo.toml file you have some info about your project (name, author, version . . .) and dependencies among other info. Looks something like this:
 
 ```
-    [package]
-    name = "myproject"
-    version = "0.1.0"
-    authors = ["John Raptis <johnsitpars@gmail.com>"]
-    edition = "2018"
+[package]
+name = "myproject"
+version = "0.1.0"
+authors = ["John Raptis <johnsitpars@gmail.com>"]
+edition = "2018"
 
-    # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-    [dependencies]
+[dependencies]
 ```
 
 In our main.rs file we have our main function that prints a string.
 
 ```
-    fn main() {
-      println!('Hello Rust!!');
-    }
+fn main() {
+  println!('Hello Rust!!');
+}
 ```
 
 To run this program we head to our terminal in the src directory.
@@ -76,25 +76,27 @@ To run this program we head to our terminal in the src directory.
 First we create an executable . . .
 
 ```
-    rustc main.rs
+rustc main.rs
 ```
 
 . . . and then run it
 
 ```
-    ./main
+./main
 ```
 
 which outputs
-``
-Hello Rust!!
 
 ```
+Hello Rust!!
+```
+
 or using Cargo we can run cargo run
 
-    $ cargo run
-       Compiling myproject v0.1.0 (/home/john/Documents/myproject)
-        Finished dev [unoptimized + debuginfo] target(s) in 0.25s
-         Running `target/debug/myproject`
-    Hello Rust!!
+```
+$ cargo run
+   Compiling myproject v0.1.0 (/home/john/Documents/myproject)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.25s
+     Running `target/debug/myproject`
+Hello Rust!!
 ```
