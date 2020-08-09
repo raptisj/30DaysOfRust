@@ -85,7 +85,7 @@ First we create an executable . . .
     ./main
 ```
 
-which output
+which outputs
 ``
 Hello Rust!!
 
