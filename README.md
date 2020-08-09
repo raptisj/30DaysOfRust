@@ -1,7 +1,7 @@
 # 30 Days of Rust
 
 I had an idea. I like code. I like learning. I like writing.
-So what I'm going to do is learn the Rust language and document the process.
+So what I'm going to do is learn some Rust language and document the process.
 
 From day 1 to 30.
 
