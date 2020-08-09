@@ -12,8 +12,8 @@
 Install Rust with rustup(recommended).
 
 -   Check if you have curl installed.
--   Run in your terminal curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
--   Add ~/.cargo/bin to your PATH environment variable
+-   Run in your terminal `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+-   Add `~/.cargo/bin` to your PATH environment variable
 
 To add the ~/.cargo/bin to your PATH environment you open your .bashrc file and paste this at the bottom. This may vary depending on your operating system.
 . . .
