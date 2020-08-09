@@ -7,7 +7,7 @@
 -   Write you first Hello Rust program.
 -   Overview of key concepts.
 
-### Installation
+## Installation
 
 Install Rust with rustup(recommended).
 
@@ -37,11 +37,11 @@ sudo apt-get install build-essential -y
 
 Link to video: [Install Rust in Linux](https://www.youtube.com/watch?v=PHBdlGgCrWw)
 
-### Cargo
+## Cargo
 
 Cargo is the official package manager of Rust. You can think this like what is Composer for PHP or NPM for JavaScript.
 
-### Hello Rust
+## Hello Rust
 
 To create a new Rust project you run in your terminal
 
