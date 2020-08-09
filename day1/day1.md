@@ -67,7 +67,7 @@ In our main.rs file we have our main function that prints a string.
 
 ```rust
 fn main() {
-  println!('Hello Rust!!');
+  println!("Hello Rust!!");
 }
 ```
 
