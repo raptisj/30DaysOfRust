@@ -3,9 +3,7 @@
 **Goals:**
 
 - Get Rust installed on your local machine.
-- Learn what Cargo is.
-- Write you first Hello Rust program.
-- Overview of key concepts.
+- Run you first Hello Rust program.
 
 ## Installation
 
